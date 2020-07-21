@@ -69,7 +69,7 @@ const defeat = youHero => {
       "font-size:18px; background:darkgreen; color:white; border: 4px dashed gold;"
     );
     alert(
-      ` Oh No your ship blew up ! The ${youHero.name} is gone! Close this annoying pop-up and refresh the page to try again Captian! Good thing it was just a simulation..... don't forget your engineers can search Reddit for a way to restore your hull power`
+      ` Oh No your ship blew up ! The ${youHero.name} is gone! Close this annoying pop-up and refresh the page to try again Captian! Good thing it was just a simulation..... don't forget your engineers can search Google for a way to restore your hull power`
     );
   } else {
     console.log(
@@ -109,13 +109,13 @@ class Hero {
   announceHealth() {
     console.log("I am" + this.name + "my shields are now " + this.hull);
   }
-  useReddit() {
+  useGoogle() {
     if (enigneers[0] === "E") {
       enigneers[enigneers.length] = "o";
       enigneers.splice(0, 1);
       console.log(
         this.name +
-          "we found the answer on Reddit! We fixed our shield generator hull strength improved"
+          "we found the answer! We fixed our shield generator hull strength improved"
       );
       this.hull += 10;
       this.announceHealth();
@@ -349,7 +349,7 @@ console.log(
   "......The future has some bright spots also your amazing pilot will dodge some attacks and the aliens targeting computer will only make around 50% of their shots..... "
 );
 console.log(
-  "......Remember if you are getting whooped you can have your engineers search Reddit for a way to fix your hull but only twice...... "
+  "......Remember if you are getting whooped you can have your engineers search online for a way to fix your hull but only twice...... "
 );
 console.log(
   "......your ship is below check it out before you get started cilck the arrow...... "
