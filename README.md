@@ -1,2 +1,2 @@
 # spacebattle
-Javascript console text battle
+Javascript console game
