@@ -1,5 +1,5 @@
-console.log('Welcome to the USS Schwarzenegger. It'/'s time to battle aliens!');
-
+/*welcome*/console.log('Welcome to the USS Schwarzenegger. It'/'s time to battle aliens!');
+//game
 const hero = {
     hull: 20,
     firepower: 5,
@@ -57,5 +57,6 @@ const battle = (player, computer) => {
 test out diff hull and accuracy later
 how to move from console?
 how many players max?
+is there a limit to the console logs?
 best css layout..?
 */
