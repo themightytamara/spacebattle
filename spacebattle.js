@@ -3,7 +3,7 @@ console.log('Welcome to the USS Schwarzenegger. It'/'s time to battle aliens!');
 const hero = {
     hull: 20,
     firepower: 5,
-    accußracy: .7,
+    accurracy: .7,
     isAlive: true,
     attack(target) {
         let ranNum = Math.random();
@@ -14,11 +14,11 @@ const hero = {
             console.log(`alien has ${target.hull} hull points left.`);
             if (target.hull <= 0) {
                 target.isAlive = false;
-                console.log('You saved the earth and destroed the aliens!!`);
+                console.log('You saved the earth and destroyed the aliens!!`);
 
             }
         } else {
-            console.log(`you missed!`);
+            console.log(`you missed! The aliens will forge ahead.`);
         }
     }
 }
@@ -36,7 +36,7 @@ const alien = {
             console.log(`hero has ${target.hull} hull points left.`);
             if (target.hull <= 0) {
                 target.isAlive = false;
-                console.log(`You lost!`);
+                console.log(`You lost! The US schwarzenegger is doomed`);
 
             }
         } else {
@@ -52,4 +52,10 @@ const battle = (player, computer) => {
         }
     }
 }
-=
+
+/*questions:
+test out diff hull and accuracy later
+how to move from console?
+how many players max?
+best css layout..?
+*/
